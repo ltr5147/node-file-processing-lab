@@ -1,0 +1,13 @@
+{
+  "name": "node-file-processing-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --runInBand",
+    "analyze:text": "node src/textAnalyzer.js",
+    "process:numbers": "node src/numberProcessor.js"
+  },
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}
